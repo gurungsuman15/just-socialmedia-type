@@ -1,6 +1,6 @@
 {
   "name": "just-socialmedia-checker",
-  "version": "0.0.0",
+  "version": "0.1.0-0",
   "description": "A lightweight package to check social media links",
   "main": "index.js",
   "dependencies": {},
@@ -36,7 +36,7 @@
   },
   "author": "Suman Gurung <gurung.suman15@gmail.com>",
   "contributors": [
-      "Kabir Baidhya <kabirbaidhya@gmail.com>"
+    "Kabir Baidhya <kabirbaidhya@gmail.com>"
   ],
   "keywords": [
     "socialmedia",
