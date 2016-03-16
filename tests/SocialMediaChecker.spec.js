@@ -1,43 +1,36 @@
 
 import SocialMediaChecker from '../src/SocialMediaChecker';
 
-
 var checker = new SocialMediaChecker();
 
-describe('SocialMedia: Facebook', () => {
+describe('Facebook', () => {
 
-    it('returns facebook key for facebook url', () => {
+    it('returns "facebook" for facebook url', () => {
         var result = checker.check('https://www.facebook.com/john');
         expect(result).toEqual('facebook');
     });
 });
 
-describe('SocialMedia: Google+', () => {
+describe('Google+', () => {
 
-    it('returns google+ key for google+ url', () => {
+    it('returns google"+" y for google+ url', () => {
         var result = checker.check('https://www.plus.google.com/john');
         expect(result).toEqual('google+');
     });
 });
 
-describe('SocialMedia: Instagram', () => {
+describe('Instagram', () => {
 
-    it('returns instagram key for facebook url', () => {
+    it('returns "instagram" y for facebook url', () => {
         var result = checker.check('https://www.instagram.com/john');
         expect(result).toEqual('instagram');
     });
 });
 
-describe('SocialMedia: Linkedin', () => {
+describe('Linkedin', () => {
 
-    it('returns linkedin key for linkedin url', () => {
+    it('returns "linkedin" y for linkedin url', () => {
         var result = checker.check('https://www.linkedin.com/john');
         expect(result).toEqual('linkedin');
     });
 });
-
-
-it('check if undefuned url returns false', () => {
-    	var result = checker.check('https://www.someothersocialsite.com/check');
-    	expect(result).toEqual(false);
-    })
