@@ -1,0 +1,1 @@
+# Just Social Media Type
